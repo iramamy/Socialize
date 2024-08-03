@@ -1,0 +1,450 @@
+.profile-picture {
+  width: 50px;
+  height: 50px;
+}
+
+.menu a {
+  text-decoration: none !important;
+}
+
+.left .menu a:hover {
+  background: #f1f1f1;
+  border-right: 5px solid #9b4dff;
+}
+
+.menu-item p {
+  font-size: 18px;
+}
+
+.menu .menu-item:hover {
+  color: #9b4dff !important;
+}
+
+.menu-item span i {
+  font-size: 1.5rem;
+}
+
+#messageId, #notificationId {
+  display: none;
+}
+
+.popup {
+  position: fixed;
+  top: 6rem;
+  left: 25%;
+  width: 35%;
+  max-height: 80vh;
+  z-index: 10;
+}
+
+.popup .card-footer a {
+  text-decoration: none;
+}
+
+.chat-container .message:hover {
+  background: #f1f1f1;
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px;
+}
+
+.notification {
+  font-size: 14px;
+}
+
+.notification .time {
+  font-size: 12px;
+}
+
+.message-counter {
+  padding: 2px 6px;
+  font-size: 10px;
+}
+
+.chat-container {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 350px;
+  border-top: 2px solid #f1f1f1;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.story a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.story-profile-picture img {
+  border: #9b4dff solid 3px;
+}
+
+.story-profile-picture, .comment-profile-picture {
+  width: 35px;
+  height: 35px;
+}
+
+.story {
+  display: flex;
+  position: relative;
+}
+
+.gradient-image img {
+  width: 126px;
+}
+
+.gradient-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  border-radius: 1rem;
+  z-index: 0;
+}
+
+.accordion-body textarea {
+  resize: none;
+  font-size: 12px;
+}
+
+.card-body p {
+  font-size: 12px;
+}
+
+.action-button a {
+  text-decoration: none;
+}
+
+.action-button a:hover {
+  color: black;
+}
+
+.action-button i {
+  font-size: 25px;
+}
+
+.liked-by p, .liked-by b {
+  font-size: 12px;
+}
+
+.liked-by img {
+  border: white solid 1px;
+  overflow: hidden;
+}
+
+.caption p {
+  font-size: 12px;
+}
+
+.liked-by img {
+  width: 22px;
+  height: 22px;
+}
+
+.post a {
+  text-decoration: none;
+  color: #291d3e;
+}
+
+.post a:hover {
+  color: #1a1129;
+}
+
+.menu-text p {
+  font-size: 18px;
+}
+
+.menu-text span i {
+  font-size: 1.5rem;
+}
+
+.navigation-link span a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation-link span {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.navigation-link .active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: -7px;
+  right: -7px;
+  border-bottom: 6px solid black;
+}
+
+.navbar-small .active {
+  color: #9b4dff;
+}
+
+.navbar-small i {
+  font-size: 2rem;
+}
+
+.profile-picture-small {
+  width: 40px;
+  height: 40px;
+}
+
+.message .active {
+  padding: 5px;
+}
+
+.card-side-bar {
+  height: 83vh;
+}
+
+.card-side-bar span i:hover {
+  color: #cecece !important;
+}
+
+/* Middle  */
+.message-navigations a {
+  font-size: 14px;
+  color: black;
+}
+
+.message-navigations a:hover {
+  color: rgb(100, 100, 100);
+}
+
+.message-navigations .active {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 40px;
+  height: 0.2rem;
+  background-color: black;
+}
+
+.message-container {
+  overflow-y: auto;
+  max-height: 63vh;
+  min-height: 45vh;
+}
+
+.message-group {
+  position: relative;
+}
+
+.new-message a {
+  color: #fff;
+}
+
+.new-message {
+  z-index: 10;
+  right: 25px;
+  bottom: -15px;
+  background-color: #9b4dff;
+  padding: 0.6rem 0.9rem 0.5rem 0.9rem;
+  border-radius: 50%;
+}
+
+.message-container .text-muted {
+  font-size: 11px;
+  top: 0;
+  right: 12px;
+}
+
+.message-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.message-container p {
+  font-size: 14px !important;
+}
+
+.message-container .active {
+  border-left: #e49797 3px solid;
+  background-color: #ffebeb;
+  border-bottom: none;
+}
+
+.unique-message {
+  border-bottom: #cac3c3 1px solid;
+}
+
+/* Main message (right) */
+
+.main-message .card img {
+  width: 50px;
+  height: 50px;
+}
+
+.main-message .card p {
+  font-size: 13px;
+}
+
+.main-message .card i {
+  font-size: 22px;
+  border-radius: 50%;
+  padding: 0.6rem;
+  background: #f1f1f1;
+}
+
+.main-message .card i:hover {
+  color: rgb(139, 139, 139) !important;
+  background: #dddcdc;
+}
+
+.main-message .message-container {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  max-height: 58vh;
+  min-height: 45vh;
+}
+
+.main-message .message-container img {
+  width: 35px;
+  height: 35px;
+}
+
+.sender .card, .receiver .card {
+  max-width: 55%;
+}
+
+.custom-input-group {
+  bottom: 12px;
+  width: 96.3%;
+}
+
+/* Offcanva */
+
+.offcanvas-main-header a {
+  cursor: pointer;
+}
+
+.offcanvas-main-header i {
+  font-size: 20px;
+}
+
+.offcanvas-main-header span i:hover {
+  color: rgb(209, 209, 209) !important;
+}
+
+.offcanvas-main-header img {
+  width: 40px;
+  height: 40px;
+}
+
+.offcanvas-main-header h6 {
+  font-size: 16px;
+}
+
+.offcanvas-main-header p {
+  font-size: 12px;
+}
+
+.offcanvas-body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 12px;
+}
+
+.offcanvas-body img {
+  width: 30px;
+  height: 30px;
+}
+
+.offcanvas-body .sender .card, .receiver .card {
+  max-width: 70%;
+}
+
+.offcanvas-body .message-container {
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.navbar-message-sm i {
+  font-size: 20px;
+}
+
+/* Stories */
+.stories {
+  width: 100wh;
+  overflow-x: auto;
+}
+
+@media (max-width: 992px) {
+
+  .middle .message-container {
+    max-height: 65vh;
+    min-height: 60vh;
+  }
+
+  .middle {
+    padding: 0 !important;
+    margin: 0 0 4rem 0 !important;
+  }
+
+  .main-message .message-container {
+    max-height: 58vh;
+    min-height: 45vh;
+  }
+
+  .navbar-small-navigation a {
+    text-decoration: none;
+  }
+
+  /* Stories */
+  .stories {
+    padding-left: 0.4rem;
+    width: 100wh;
+    overflow-x: auto;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 5rem !important;
+    margin-top: 3rem !important;
+  }
+
+  .messages {
+    margin-top: 7rem !important;
+  }
+
+  .middle .message-container {
+    max-height: 90vh;
+    min-height: 60vh;
+  }
+
+  .middle {
+    padding: 0 !important;
+    margin: 0 0 4rem 0 !important;
+  }
+
+  .toolbar-small span i{
+    font-size: 1.5rem !important; 
+  }
+
+  .toolbar-small span i:hover{
+    color: rgb(209, 209, 209) !important;
+  }
+
+  .message-navigations {
+    display: flex;
+    justify-content: flex-start !important;
+    gap: 2rem;
+  }
+
+  .navbar-small-navigation {
+    display: flex;
+    justify-content: space-between !important;
+  }
+
+  /* Stories */
+  .stories {
+    margin-left: 0.2rem !important;
+    margin-right: 0.2rem !important;
+    width: 100wh;
+    overflow-x: auto;
+  }
+}

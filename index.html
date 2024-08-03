@@ -1,0 +1,1661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+    <!-- <link rel="icon" href="images/favicon.png" /> -->
+    <title>Socialize</title>
+  </head>
+  <body>
+    <!-- navbar xxl xl-->
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-white bg-white d-none d-lg-block"
+    >
+      <div class="container-xxl">
+        <a href="index.html" class="navbar-brand">
+          <h2 class="fw-bold">Socialize</h2>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="row w-100 align-items-center justify-content-between">
+            <div class="col-md-6 offset-md-2">
+              <div class="input-group rounded-5 bg-light">
+                <div class="input-group-text border-0 rounded-5 bg-light">
+                  <i class="uil uil-search"></i>
+                </div>
+                <input
+                  type="search"
+                  class="form-control border-0 shadow-none rounded-5 py-2"
+                  placeholder="Search"
+                />
+              </div>
+            </div>
+
+            <div
+              class="col-md-3 d-flex justify-content-end gap-3 align-items-center"
+            >
+              <button class="btn btn-primary">Create</button>
+              <a href="#">
+                <img
+                  src="images/profile-1.jpg"
+                  alt="Profile"
+                  class="img-fluid rounded-circle profile-picture"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- // navbar xxl xl-->
+
+    <!-- navbar small-->
+    <nav
+      class="navbar navbar-expand-lg fixed-top navar-white bg-white d-lg-none navbar-small"
+    >
+      <div class="container-xxl">
+        <div class="d-flex w-100 align-items-center">
+          <div
+            class="row d-flex w-100 align-items-center navbar-small-navigation"
+          >
+            <div class="col-md-3">
+              <a href="index.html">
+                <h3 class="fw-bold">Socialize</h3>
+              </a>
+            </div>
+
+            <div class="col-md-8 offset-md-1 d-flex align-items-center">
+              <div class="d-flex gap-2 align-items-center flex-grow-1">
+                <span>
+                  <a href="index.html" class="active">
+                    <i class="uil uil-home position-relative"></i>
+                    <span
+                      class="position-absolute translate-middle badge bg-danger rounded-circle mx-n3 mt-3 m-0"
+                    >
+                      +4
+                    </span>
+                  </a>
+                </span>
+
+                <span>
+                  <a href="#">
+                    <i class="uil uil-compass text-dark position-relative"></i>
+                    <span
+                      class="position-absolute translate-middle badge bg-danger rounded-circle mx-n3 mt-3 m-0"
+                    >
+                      +4
+                    </span>
+                  </a>
+                </span>
+
+                <span>
+                  <a href="#">
+                    <i class="uil uil-bell text-dark position-relative"></i>
+                    <span
+                      class="position-absolute translate-middle badge bg-danger rounded-circle mx-n3 mt-3 m-0"
+                    >
+                      +4
+                    </span>
+                  </a>
+                </span>
+
+                <span>
+                  <a href="message.html">
+                    <i
+                      class="uil uil-envelope-alt text-dark position-relative"
+                    ></i>
+                    <span
+                      class="position-absolute translate-middle badge bg-danger rounded-circle mx-n3 mt-3 m-0"
+                    >
+                      +4
+                    </span>
+                  </a>
+                </span>
+
+                <span>
+                  <a href="#">
+                    <i class="uil uil-bookmark text-dark position-relative"></i>
+                    <span
+                      class="position-absolute translate-middle badge bg-danger rounded-circle mx-n3 mt-3 m-0"
+                    >
+                      +4
+                    </span>
+                  </a>
+                </span>
+              </div>
+
+              <span class="">
+                <a href="#">
+                  <img
+                    src="images/profile-1.jpg"
+                    alt="Profile"
+                    class="img-fluid rounded-circle profile-picture-small"
+                  />
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- // navbar small-->
+
+    <div class="pt-6 main-content">
+      <div class="container-xxl">
+        <!-- Side bar -->
+        <div class="row">
+          <!-- left -->
+          <div class="col-lg-3 left d-none d-lg-block">
+            <div
+              class="d-flex bg-white gap-3 align-items-center p-3 rounded-4 mb-4 position-relative"
+            >
+              <div class="profile border-3">
+                <div class="image-container profile-picture">
+                  <a href="#" class="stretched-link">
+                    <img
+                      src="images/profile-11.jpg"
+                      alt=""
+                      class="img-fluid rounded-circle"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <div class="text-container d-flex flex-column">
+                <p class="text-primary mb-0">Lorem ipsum.</p>
+                <span class="text-muted">@Mamy</span>
+              </div>
+            </div>
+
+            <!-- Popup menu message-->
+            <div
+              class="popup bg-white rounded-4 p-3 shadow w-25"
+              id="messageId"
+            >
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h5 class="card-title mb-2">
+                      <span class="fw-bold"> Message(s) </span>
+                    </h5>
+                  </div>
+                  <div class="d-flex gap-3">
+                    <a href="message.html">
+                      <i class="fas fa-expand-arrows-alt"></i>
+                    </a>
+                    <a href="#">
+                      <i class="uil uil-edit"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- search bar -->
+                <div class="mb-2">
+                  <div class="input-group rounded-5 bg-light">
+                    <div class="input-group-text border-0 rounded-5 bg-light">
+                      <i class="uil uil-search"></i>
+                    </div>
+                    <input
+                      type="search"
+                      class="form-control border-0 shadow-none rounded-5 py-2"
+                      placeholder="Search message"
+                    />
+                  </div>
+                </div>
+                <!-- // Search bar -->
+
+                <div class="navigation w-100">
+                  <div
+                    class="navigation-link d-flex justify-content-between px-2 border-bottom border-light border-4"
+                  >
+                    <span class="active fw-bold">
+                      <a href="#"> Inbox </a>
+                    </span>
+                    <span class="fw-bold">
+                      <a href="#"> Unread </a>
+                    </span>
+                    <span class="fw-bold">
+                      <a href="#" class="text-primary"> Request(s) (4) </a>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="d-flex flex-column justify-content-between">
+                  <div class="chat-container py-2">
+                    <!-- message 1 -->
+                    <div
+                      class="d-flex w-100 gap-3 position-relative message mb-3"
+                    >
+                      <div class="profile border-3">
+                        <div class="image-container profile-picture">
+                          <a href="#" class="stretched-link">
+                            <img
+                              src="images/profile-13.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle position-relative"
+                            />
+                            <span
+                              class="position-absolute translate-middle badge bg-success rounded-circle mx-n1 mt-2 m-0 active border border-white"
+                            >
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div class="text-container d-flex flex-column">
+                          <span class="text-dark fw-bold mb-0"> Ken Flet </span>
+                          <p class="text-muted card-text">
+                            Sorry, I forgot it...
+                          </p>
+                        </div>
+                        <div
+                          class="me-3 message-counter bg-danger shadow rounded-circle"
+                        >
+                          2
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // message 1 -->
+
+                    <!-- message 2 -->
+                    <div
+                      class="d-flex w-100 gap-3 position-relative message mb-3"
+                    >
+                      <div class="profile border-3">
+                        <div class="image-container profile-picture">
+                          <a href="#" class="stretched-link">
+                            <img
+                              src="images/profile-13.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle position-relative"
+                            />
+                            <span
+                              class="position-absolute translate-middle badge bg-success rounded-circle mx-n1 mt-2 m-0 active border border-white"
+                            >
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div class="text-container d-flex flex-column">
+                          <span class="text-dark fw-bold mb-0"> Ken Flet </span>
+                          <p class="text-muted card-text">
+                            Sorry, I forgot it...
+                          </p>
+                        </div>
+                        <div
+                          class="me-3 message-counter bg-danger shadow rounded-circle"
+                        >
+                          2
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // message 2 -->
+
+                    <!-- message 3 -->
+                    <div
+                      class="d-flex w-100 gap-3 position-relative message mb-3"
+                    >
+                      <div class="profile border-3">
+                        <div class="image-container profile-picture">
+                          <a href="#" class="stretched-link">
+                            <img
+                              src="images/profile-13.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle position-relative"
+                            />
+                            <span
+                              class="position-absolute translate-middle badge bg-success rounded-circle mx-n1 mt-2 m-0 active border border-white"
+                            >
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div class="text-container d-flex flex-column">
+                          <span class="text-dark fw-bold mb-0"> Ken Flet </span>
+                          <p class="text-muted card-text">
+                            Sorry, I forgot it...
+                          </p>
+                        </div>
+                        <div
+                          class="me-3 message-counter bg-danger shadow rounded-circle"
+                        >
+                          2
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // message 3 -->
+
+                    <!-- message 4 -->
+                    <div
+                      class="d-flex w-100 gap-3 position-relative message mb-3"
+                    >
+                      <div class="profile border-3">
+                        <div class="image-container profile-picture">
+                          <a href="#" class="stretched-link">
+                            <img
+                              src="images/profile-13.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle position-relative"
+                            />
+                            <span
+                              class="position-absolute translate-middle badge bg-success rounded-circle mx-n1 mt-2 m-0 active border border-white"
+                            >
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div class="text-container d-flex flex-column">
+                          <span class="text-dark fw-bold mb-0"> Ken Flet </span>
+                          <p class="text-muted card-text">
+                            Sorry, I forgot it...
+                          </p>
+                        </div>
+                        <div
+                          class="me-3 message-counter bg-danger shadow rounded-circle"
+                        >
+                          2
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // message 4 -->
+
+                    <!-- message 5 -->
+                    <div
+                      class="d-flex w-100 gap-3 position-relative message mb-3"
+                    >
+                      <div class="profile border-3">
+                        <div class="image-container profile-picture">
+                          <a href="#" class="stretched-link">
+                            <img
+                              src="images/profile-13.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle position-relative"
+                            />
+                            <span
+                              class="position-absolute translate-middle badge bg-success rounded-circle mx-n1 mt-2 m-0 active border border-white"
+                            >
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div class="text-container d-flex flex-column">
+                          <span class="text-dark fw-bold mb-0"> Ken Flet </span>
+                          <p class="text-muted card-text">
+                            Sorry, I forgot it...
+                          </p>
+                        </div>
+                        <div
+                          class="me-3 message-counter bg-danger shadow rounded-circle"
+                        >
+                          2
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // message 5 -->
+
+                    <!-- message 6 -->
+                    <div
+                      class="d-flex w-100 gap-3 position-relative message mb-3"
+                    >
+                      <div class="profile border-3">
+                        <div class="image-container profile-picture">
+                          <a href="#" class="stretched-link">
+                            <img
+                              src="images/profile-13.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle position-relative"
+                            />
+                            <span
+                              class="position-absolute translate-middle badge bg-success rounded-circle mx-n1 mt-2 m-0 active border border-white"
+                            >
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div class="text-container d-flex flex-column">
+                          <span class="text-dark fw-bold mb-0"> Ken Flet </span>
+                          <p class="text-muted card-text">
+                            Sorry, I forgot it...
+                          </p>
+                        </div>
+                        <div
+                          class="me-3 message-counter bg-danger shadow rounded-circle"
+                        >
+                          2
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // message 6 -->
+
+                    <!-- message 7 -->
+                    <div
+                      class="d-flex w-100 gap-3 position-relative message mb-3"
+                    >
+                      <div class="profile border-3">
+                        <div class="image-container profile-picture">
+                          <a href="#" class="stretched-link">
+                            <img
+                              src="images/profile-13.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle position-relative"
+                            />
+                            <span
+                              class="position-absolute translate-middle badge bg-success rounded-circle mx-n1 mt-2 m-0 active border border-white"
+                            >
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div class="text-container d-flex flex-column">
+                          <span class="text-dark fw-bold mb-0"> Ken Flet </span>
+                          <p class="text-muted card-text">
+                            Sorry, I forgot it...
+                          </p>
+                        </div>
+                        <div
+                          class="me-3 message-counter bg-danger shadow rounded-circle"
+                        >
+                          2
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // message 7 -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- // Popup menu message-->
+
+            <!-- Popup menu notification -->
+            <div
+              class="popup bg-white rounded-4 p-3 shadow w-25 shadow"
+              id="notificationId"
+            >
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h5 class="card-title mb-2">
+                      <span class="fw-bold"> Notification(s) </span>
+                    </h5>
+                  </div>
+                  <div class="d-flex gap-3">
+                    <a href="#">
+                      <i class="uil uil-ellipsis-h"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="navigation w-100 mb-3">
+                  <div class="navigation-link d-flex px-2 gap-3">
+                    <span class="active fw-bold">
+                      <a href="#"> All </a>
+                    </span>
+                    <span class="fw-bold">
+                      <a href="#"> Unread </a>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="notification flex-column justify-content-between">
+                  <div class="chat-container py-2">
+                    <!-- notification 1 -->
+                    <div
+                      class="d-flex w-100 gap-3 message mb-3 align-items-center position-relative"
+                    >
+                      <div class="profile border-3">
+                        <div class="image-container profile-picture">
+                          <a href="#" class="stretched-link">
+                            <img
+                              src="images/profile-13.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle"
+                            />
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div class="text-container d-flex flex-column">
+                          <small class="card-text text-muted">
+                            <span class="fw-bold text-dark"> Ken Flet </span>
+                            likes your profile Lorem ipsum?
+                          </small>
+                          <small class="time card-text text-muted">
+                            3 minutes ago
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // notification 1 -->
+
+                    <!-- notification 2-->
+                    <div
+                      class="d-flex w-100 gap-3 message mb-3 align-items-center position-relative"
+                    >
+                      <div class="profile border-3">
+                        <div class="image-container profile-picture">
+                          <a href="#" class="stretched-link">
+                            <img
+                              src="images/profile-13.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle"
+                            />
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div class="text-container d-flex flex-column">
+                          <small class="card-text text-muted">
+                            <span class="fw-bold text-dark"> Ken Flet </span>
+                            likes your profile Lorem ipsum?
+                          </small>
+                          <small class="time card-text text-muted">
+                            3 minutes ago
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // notification 2 -->
+
+                    <!-- notification 3 -->
+                    <div
+                      class="d-flex w-100 gap-3 message mb-3 align-items-center position-relative"
+                    >
+                      <div class="profile border-3">
+                        <div class="image-container profile-picture">
+                          <a href="#" class="stretched-link">
+                            <img
+                              src="images/profile-13.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle"
+                            />
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div class="text-container d-flex flex-column">
+                          <small class="card-text text-muted">
+                            <span class="fw-bold text-dark"> Ken Flet </span>
+                            likes your profile Lorem ipsum?
+                          </small>
+                          <small class="time card-text text-muted">
+                            3 minutes ago
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // notification 3 -->
+
+                    <!-- notification 4 -->
+                    <div
+                      class="d-flex w-100 gap-3 message mb-3 align-items-center position-relative"
+                    >
+                      <div class="profile border-3">
+                        <div class="image-container profile-picture">
+                          <a href="#" class="stretched-link">
+                            <img
+                              src="images/profile-13.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle"
+                            />
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div class="text-container d-flex flex-column">
+                          <small class="card-text text-muted">
+                            <span class="fw-bold text-dark"> Ken Flet </span>
+                            likes your profile Lorem ipsum?
+                          </small>
+                          <small class="time card-text text-muted">
+                            3 minutes ago
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // notification 4 -->
+
+                    <!-- notification 5 -->
+                    <div
+                      class="d-flex w-100 gap-3 message mb-3 align-items-center position-relative"
+                    >
+                      <div class="profile border-3">
+                        <div class="image-container profile-picture">
+                          <a href="#" class="stretched-link">
+                            <img
+                              src="images/profile-13.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle"
+                            />
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div class="text-container d-flex flex-column">
+                          <small class="card-text text-muted">
+                            <span class="fw-bold text-dark"> Ken Flet </span>
+                            likes your profile Lorem ipsum?
+                          </small>
+                          <small class="time card-text text-muted">
+                            3 minutes ago
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // notification 5 -->
+
+                    <!-- notification 6 -->
+                    <div
+                      class="d-flex w-100 gap-3 message mb-3 align-items-center position-relative"
+                    >
+                      <div class="profile border-3">
+                        <div class="image-container profile-picture">
+                          <a href="#" class="stretched-link">
+                            <img
+                              src="images/profile-13.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle"
+                            />
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div class="text-container d-flex flex-column">
+                          <small class="card-text text-muted">
+                            <span class="fw-bold text-dark"> Ken Flet </span>
+                            likes your profile Lorem ipsum?
+                          </small>
+                          <small class="time card-text text-muted">
+                            3 minutes ago
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // notification 6 -->
+
+                    <!-- notification 7 -->
+                    <div
+                      class="d-flex w-100 gap-3 message mb-3 align-items-center position-relative"
+                    >
+                      <div class="profile border-3">
+                        <div class="image-container profile-picture">
+                          <a href="#" class="stretched-link">
+                            <img
+                              src="images/profile-13.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle"
+                            />
+                          </a>
+                        </div>
+                      </div>
+
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div class="text-container d-flex flex-column">
+                          <small class="card-text text-muted">
+                            <span class="fw-bold text-dark"> Ken Flet </span>
+                            likes your profile Lorem ipsum?
+                          </small>
+                          <small class="time card-text text-muted">
+                            3 minutes ago
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // notification 7 -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- // Popup menu notification -->
+
+            <!-- menu -->
+            <div class="menu d-flex bg-white flex-column rounded-4">
+              <!-- Home -->
+              <a href="#" id="homelink">
+                <div
+                  class="menu-item d-flex align-items-center gap-4 mx-4 py-3 text-dark"
+                >
+                  <span>
+                    <i class="uil uil-home"></i>
+                  </span>
+                  <p class="mb-0 fw-bold">Home</p>
+                </div>
+              </a>
+
+              <!-- // Home -->
+
+              <!-- Explore -->
+              <a href="#" id="explorelink">
+                <div
+                  class="menu-item d-flex align-items-center gap-4 mx-4 py-3 text-dark"
+                >
+                  <span>
+                    <i class="uil uil-compass"></i>
+                  </span>
+                  <p class="mb-0 fw-bold">Explore</p>
+                </div>
+              </a>
+              <!-- // Explore -->
+
+              <!-- Notification -->
+              <a href="#" id="notificationlink" data-target="notificationId">
+                <div
+                  class="menu-item d-flex align-items-center gap-4 mx-4 py-3 text-dark"
+                >
+                  <span>
+                    <i class="uil uil-bell position-relative">
+                      <span
+                        class="position-absolute translate-middle badge bg-danger rounded-circle mx-n3 mt-2 m-0"
+                      >
+                        +4
+                      </span>
+                    </i>
+                  </span>
+                  <p class="mb-0 fw-bold">Notification(s)</p>
+                </div>
+              </a>
+              <!-- // Notification -->
+
+              <!-- Message -->
+              <a href="#" id="messagelink" data-target="messageId">
+                <div
+                  class="menu-item d-flex align-items-center gap-4 mx-4 py-3 text-dark"
+                >
+                  <span>
+                    <i class="uil uil-envelope-alt position-relative">
+                      <span
+                        class="position-absolute translate-middle badge bg-danger rounded-circle mx-n3 mt-2 m-0"
+                      >
+                        +4
+                      </span>
+                    </i>
+                  </span>
+                  <p class="mb-0 fw-bold">Message</p>
+                </div>
+              </a>
+              <!--// Message -->
+
+              <!-- Bookmark -->
+              <a href="#">
+                <div
+                  class="menu-item d-flex align-items-center gap-4 mx-4 py-3 text-dark"
+                >
+                  <span>
+                    <i class="uil uil-bookmark"></i>
+                  </span>
+                  <p class="mb-0 fw-bold">Bookmarks</p>
+                </div>
+              </a>
+              <!-- // Bookmark -->
+
+              <!-- Analytics -->
+              <a href="#">
+                <div
+                  class="menu-item d-flex align-items-center gap-4 mx-4 py-3 text-dark"
+                >
+                  <span>
+                    <i class="uil uil-chart-line"></i>
+                  </span>
+                  <p class="mb-0 fw-bold">Analytics</p>
+                </div>
+              </a>
+              <!-- Analytics -->
+
+              <!-- Theme -->
+              <a href="#">
+                <div
+                  class="menu-item d-flex align-items-center gap-4 mx-4 py-3 text-dark"
+                >
+                  <span>
+                    <i class="uil uil-palette"></i>
+                  </span>
+                  <p class="mb-0 fw-bold">Theme</p>
+                </div>
+              </a>
+              <!-- // Theme -->
+
+              <!-- Settings -->
+              <a href="#">
+                <div
+                  class="menu-item d-flex align-items-center gap-4 mx-4 py-3 text-dark"
+                >
+                  <span>
+                    <i class="uil uil-setting"></i>
+                  </span>
+                  <p class="mb-0 fw-bold">Settings</p>
+                </div>
+              </a>
+              <!-- // Settings -->
+            </div>
+            <div class="d-grid py-3">
+              <button class="btn btn-primary py-2">Create a post</button>
+            </div>
+          </div>
+          <!-- // left -->
+
+          <!-- middle -->
+          <div class="col-lg-6 middle">
+            <!-- stories -->
+            <div class="stories row">
+              <div class="col-12 d-flex gap-1">
+                <!-- Single story -->
+                <div class="row">
+                  <div class="col-md-3 story">
+                    <div class="position-relative gradient-image">
+                      <a href="#">
+                        <img
+                          src="images/story-1.jpg"
+                          class="card-img rounded-4"
+                        />
+                      </a>
+                      <div class="text-primary">
+                        <div
+                          class="story-profile-picture position-absolute top-0 m-3"
+                        >
+                          <a href="#">
+                            <img
+                              src="images/profile-5.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle border-primary"
+                            />
+                          </a>
+                        </div>
+                        <div
+                          class="position-absolute bottom-0 text-center mx-4 mb-2 lh-1"
+                        >
+                          <a href="#" class="text-white"><b>User name</b></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- // Single story -->
+
+                <!-- Single story -->
+                <div class="row">
+                  <div class="col-md-3 story">
+                    <div class="position-relative gradient-image">
+                      <a href="#">
+                        <img
+                          src="images/story-2.jpg"
+                          class="card-img rounded-4 shadow"
+                        />
+                      </a>
+                      <div class="text-primary">
+                        <div
+                          class="story-profile-picture position-absolute top-0 m-3"
+                        >
+                          <a href="#">
+                            <img
+                              src="images/profile-7.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle border-primary"
+                            />
+                          </a>
+                        </div>
+                        <div
+                          class="position-absolute bottom-0 text-center mx-4 mb-2 lh-1"
+                        >
+                          <a href="#" class="text-white"><b>User name</b></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- // Single story -->
+
+                <!-- Single story -->
+                <div class="row">
+                  <div class="col-md-3 story">
+                    <div class="position-relative gradient-image">
+                      <a href="#">
+                        <img
+                          src="images/story-3.jpg"
+                          class="card-img rounded-4 shadow"
+                        />
+                      </a>
+                      <div class="text-primary">
+                        <div
+                          class="story-profile-picture position-absolute top-0 m-3"
+                        >
+                          <a href="#">
+                            <img
+                              src="images/profile-9.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle border-primary"
+                            />
+                          </a>
+                        </div>
+                        <div
+                          class="position-absolute bottom-0 text-center mx-4 mb-2 lh-1"
+                        >
+                          <a href="#" class="text-white"><b>User name</b></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- // Single story -->
+
+                <!-- Single story -->
+                <div class="row">
+                  <div class="col-md-3 story">
+                    <div class="position-relative gradient-image">
+                      <a href="#">
+                        <img
+                          src="images/story-4.jpg"
+                          class="card-img rounded-4 shadow"
+                        />
+                      </a>
+
+                      <div class="text-primary">
+                        <div
+                          class="story-profile-picture position-absolute top-0 m-3"
+                        >
+                          <a href="#">
+                            <img
+                              src="images/profile-10.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle border-primary"
+                            />
+                          </a>
+                        </div>
+
+                        <div
+                          class="position-absolute bottom-0 text-center mx-4 mb-2 lh-1"
+                        >
+                          <a href="#" class="text-white"><b>User name</b></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- // Single story -->
+
+                <!-- Single story -->
+                <div class="row">
+                  <div class="col-md-3 story">
+                    <div class="position-relative gradient-image">
+                      <a href="#">
+                        <img
+                          src="images/story-5.jpg"
+                          class="card-img rounded-4 shadow"
+                        />
+                      </a>
+                      <div class="text-primary">
+                        <div
+                          class="story-profile-picture position-absolute top-0 m-3"
+                        >
+                          <a href="#">
+                            <img
+                              src="images/profile-12.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle border-primary"
+                            />
+                          </a>
+                        </div>
+                        <div
+                          class="position-absolute bottom-0 text-center mx-4 mb-2 lh-1"
+                        >
+                          <a href="#" class="text-white"><b>User name</b></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- // Single story -->
+
+                <!-- Single story -->
+                <div class="row">
+                  <div class="col-md-3 story">
+                    <div class="position-relative gradient-image">
+                      <a href="#">
+                        <img
+                          src="images/story-1.jpg"
+                          class="card-img rounded-4"
+                        />
+                      </a>
+                      <div class="text-primary">
+                        <div
+                          class="story-profile-picture position-absolute top-0 m-3"
+                        >
+                          <a href="#">
+                            <img
+                              src="images/profile-5.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle border-primary"
+                            />
+                          </a>
+                        </div>
+                        <div
+                          class="position-absolute bottom-0 text-center mx-4 mb-2 lh-1"
+                        >
+                          <a href="#" class="text-white"><b>User name</b></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- // Single story -->
+              </div>
+            </div>
+            <!-- // stories -->
+
+            <!-- post input-->
+            <div class="post row my-3">
+              <div class="col-12 my-auto">
+                <div class="bg-white rounded-5 p-2">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control border-0 bg-white shadow-none"
+                      placeholder="What is in your mind?"
+                    />
+                    <button class="btn btn-primary rounded-5">Post</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- // post input -->
+
+            <!-- Content 1-->
+            <div class="post row">
+              <div class="col-12 mb-3">
+                <div class="card rounded-2 border-0">
+                  <!-- header -->
+                  <div class="card-body d-flex gap-3">
+                    <div>
+                      <div class="profile-picture">
+                        <a href="#">
+                          <img
+                            src="images/profile-11.jpg"
+                            alt=""
+                            class="img-fluid rounded-circle"
+                          />
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between w-100">
+                      <div>
+                        <h6 class="card-title fw-bold">
+                          <a href="#"> Name 1 </a>
+                        </h6>
+                        <p>Dubai, 15 MINUTES AGO</p>
+                      </div>
+                      <div>
+                        <span>
+                          <a href="#">
+                            <i class="uil uil-ellipsis-h"></i>
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- // Header -->
+
+                  <img
+                    src="images/feed-1.jpg"
+                    class="card-img rounded-2 px-2"
+                    alt="..."
+                  />
+
+                  <div class="list-group list-group-flush">
+                    <div
+                      class="liked-by list-group-item border-0 d-flex gap-3 align-items-center"
+                    >
+                      <div class="d-flex">
+                        <span
+                          ><img
+                            src="images/profile-10.jpg"
+                            class="img-fluid rounded-circle"
+                        /></span>
+                        <span
+                          ><img
+                            src="images/profile-12.jpg"
+                            class="img-fluid rounded-circle"
+                        /></span>
+                        <span
+                          ><img
+                            src="images/profile-7.jpg"
+                            class="img-fluid rounded-circle"
+                        /></span>
+                      </div>
+                      <div class="d-flex">
+                        <p class="mb-0">
+                          Liked by
+                          <b> <a href="#"> Name 42 </a> </b>and<b>
+                            <a href="#"> others... </a>
+                          </b>
+                        </p>
+                      </div>
+                    </div>
+
+                    <!-- Action button -->
+                    <div
+                      class="list-group-item action-button d-flex justify-content-between border-0"
+                    >
+                      <div class="interation-button">
+                        <span>
+                          <a href="#">
+                            <i class="uil uil-heart"></i>
+                          </a>
+                        </span>
+                        <!-- comment -->
+                        <span id="comment" class="accordion">
+                          <a
+                            href="#"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseComment"
+                          >
+                            <i class="uil uil-comment-dots"></i>
+                          </a>
+                        </span>
+                        <!-- comment -->
+                        <span>
+                          <a href="#">
+                            <i class="uil uil-share-alt"></i>
+                          </a>
+                        </span>
+                      </div>
+                      <div class="bookmark">
+                        <span>
+                          <a href="#">
+                            <i class="uil uil-bookmark-full"></i>
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                    <!-- // Action button -->
+
+                    <!-- Comment -->
+                    <div
+                      id="collapseComment"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#comment"
+                    >
+                      <div
+                        class="accordion-body d-flex px-4 pb-2 gap-3 align-items-center"
+                      >
+                        <div class="comment-profile-picture">
+                          <a href="#">
+                            <img
+                              src="images/profile-4.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle"
+                            />
+                          </a>
+                        </div>
+                        <div class="w-100">
+                          <textarea
+                            class="form-control border-0 shadow-none"
+                            placeholder="Comment as ... "
+                          >
+                          </textarea>
+                        </div>
+                        <div>
+                          <a href="#">
+                            <i class="fa fa-paper-plane"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // Comment -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- // Content 1-->
+
+            <!-- Content 2-->
+            <div class="post row">
+              <div class="col-12 mb-3">
+                <div class="card rounded-2 border-0">
+                  <!-- header -->
+                  <div class="card-body d-flex gap-3">
+                    <div>
+                      <div class="profile-picture">
+                        <a href="#">
+                          <img
+                            src="images/profile-5.jpg"
+                            alt=""
+                            class="img-fluid rounded-circle"
+                          />
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between w-100">
+                      <div>
+                        <h6 class="card-title fw-bold">
+                          <a href="#"> Name 1 </a>
+                        </h6>
+                        <p>Dubai, 15 MINUTES AGO</p>
+                      </div>
+                      <div>
+                        <span>
+                          <a href="#">
+                            <i class="uil uil-ellipsis-h"></i>
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- // Header -->
+
+                  <img
+                    src="images/feed-1.jpg"
+                    class="card-img rounded-2 px-2"
+                    alt="..."
+                  />
+
+                  <div class="list-group list-group-flush">
+                    <div
+                      class="liked-by list-group-item border-0 d-flex gap-3 align-items-center"
+                    >
+                      <div class="d-flex">
+                        <span
+                          ><img
+                            src="images/profile-10.jpg"
+                            class="img-fluid rounded-circle"
+                        /></span>
+                        <span
+                          ><img
+                            src="images/profile-12.jpg"
+                            class="img-fluid rounded-circle"
+                        /></span>
+                        <span
+                          ><img
+                            src="images/profile-7.jpg"
+                            class="img-fluid rounded-circle"
+                        /></span>
+                      </div>
+                      <div class="d-flex">
+                        <p class="mb-0">
+                          Liked by
+                          <b> <a href="#"> Name 42 </a> </b>and<b>
+                            <a href="#"> others... </a>
+                          </b>
+                        </p>
+                      </div>
+                    </div>
+
+                    <!-- Action button -->
+                    <div
+                      class="list-group-item action-button d-flex justify-content-between border-0"
+                    >
+                      <div class="interation-button">
+                        <span>
+                          <a href="#">
+                            <i class="uil uil-heart"></i>
+                          </a>
+                        </span>
+
+                        <!-- comment 2 -->
+                        <span id="comment2" class="accordion">
+                          <a
+                            href="#"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseComment2"
+                          >
+                            <i class="uil uil-comment-dots"></i>
+                          </a>
+                        </span>
+                        <!-- comment 2 -->
+                        <span>
+                          <a href="#">
+                            <i class="uil uil-share-alt"></i>
+                          </a>
+                        </span>
+                      </div>
+                      <div class="bookmark">
+                        <span>
+                          <a href="#">
+                            <i class="uil uil-bookmark-full"></i>
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                    <!-- // Action button -->
+
+                    <!-- Comment -->
+                    <div
+                      id="collapseComment2"
+                      class="accordion-collapse collapse show"
+                      data-bs-parent="#comment2"
+                    >
+                      <div
+                        class="accordion-body d-flex px-4 pb-2 gap-3 align-items-center"
+                      >
+                        <div class="comment-profile-picture">
+                          <a href="#">
+                            <img
+                              src="images/profile-4.jpg"
+                              alt=""
+                              class="img-fluid rounded-circle"
+                            />
+                          </a>
+                        </div>
+                        <div class="w-100">
+                          <textarea
+                            class="form-control border-0 shadow-none"
+                            placeholder="Comment as ... "
+                          >
+                          </textarea>
+                        </div>
+                        <div>
+                          <a href="#">
+                            <i class="fa fa-paper-plane"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- // Comment -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- // Content 2-->
+          </div>
+
+          <!-- middle -->
+
+          <!-- right -->
+          <div class="col-lg-3 d-none d-lg-block right">
+            <div
+              class="d-flex flex-column bg-white gap-3 align-items-center p-3 rounded-4 mb-4"
+            >
+              <div class="menu w-100">
+                <div
+                  class="menu-text d-flex align-items-center justify-content-between"
+                >
+                  <p class="mb-0 fw-bold">Message</p>
+                  <span>
+                    <i class="uil uil-edit"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div>
+                <div class="input-group rounded-5 bg-light">
+                  <div class="input-group-text border-0 rounded-5 bg-light">
+                    <i class="uil uil-search"></i>
+                  </div>
+                  <input
+                    type="search"
+                    class="form-control border-0 shadow-none rounded-5 py-2"
+                    placeholder="Search message"
+                  />
+                </div>
+              </div>
+
+              <div class="navigation w-100">
+                <div
+                  class="navigation-link d-flex justify-content-between px-2 border-bottom border-light border-4"
+                >
+                  <span class="active fw-bold">
+                    <a href="#"> Primary </a>
+                  </span>
+                  <span class="fw-bold">
+                    <a href="#"> General </a>
+                  </span>
+                  <span class="fw-bold">
+                    <a href="#" class="text-primary"> Request (4) </a>
+                  </span>
+                </div>
+              </div>
+
+              <div class="d-flex w-100 gap-3 position-relative message">
+                <div class="profile border-3">
+                  <div class="image-container profile-picture">
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-13.jpg"
+                        alt=""
+                        class="img-fluid rounded-circle position-relative"
+                      />
+                      <span
+                        class="position-absolute translate-middle badge bg-success rounded-circle mx-n1 mt-2 m-0 active border border-white"
+                      >
+                      </span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="text-container d-flex flex-column">
+                  <p class="text-dark fw-bold mb-0">Ken Flet</p>
+                  <span class="text-muted notification">
+                    Sorry, I forgot it...
+                  </span>
+                </div>
+              </div>
+
+              <div class="d-flex w-100 gap-3 position-relative message">
+                <div class="profile border-3">
+                  <div class="image-container profile-picture">
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-3.jpg"
+                        alt=""
+                        class="img-fluid rounded-circle position-relative"
+                      />
+                      <span
+                        class="position-absolute translate-middle badge bg-success rounded-circle mx-n1 mt-2 m-0 active border border-white"
+                      >
+                      </span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="text-container d-flex flex-column">
+                  <p class="text-dark fw-bold mb-0">Minye Colis</p>
+                  <span class="text-muted notification">
+                    Bring your laptop...
+                  </span>
+                </div>
+              </div>
+
+              <div class="d-flex w-100 gap-3 position-relative message">
+                <div class="profile border-3">
+                  <div class="image-container profile-picture">
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-2.jpg"
+                        alt=""
+                        class="img-fluid rounded-circle position-relative"
+                      />
+                      <span
+                        class="position-absolute translate-middle badge bg-success rounded-circle mx-n1 mt-2 m-0 active border border-white"
+                      >
+                      </span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="text-container d-flex flex-column">
+                  <p class="text-dark fw-bold mb-0">Radie Gnomeyos</p>
+                  <span class="text-muted notification"> Where are you? </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Request -->
+            <div class="mb-4">
+              <span class="text-muted fw-bold">Friend Requests</span>
+            </div>
+
+            <div
+              class="d-flex flex-column bg-white gap-3 align-items-center p-3 rounded-4 mb-4"
+            >
+              <div class="d-flex w-100 gap-3 position-relative">
+                <div class="profile border-3">
+                  <div class="image-container profile-picture">
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-7.jpg"
+                        alt=""
+                        class="img-fluid rounded-circle"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="text-container d-flex flex-column">
+                  <p class="text-dark fw-bold mb-0">Fried Haev</p>
+                  <span class="text-muted notification">
+                    10 mutual friends
+                  </span>
+                </div>
+              </div>
+
+              <div>
+                <a href="#" class="btn btn-primary"> Accept </a>
+                <a href="#" class="btn btn-light"> Decline</a>
+              </div>
+            </div>
+            <!-- // Request 1-->
+
+            <div
+              class="d-flex flex-column bg-white gap-3 align-items-center p-3 rounded-4 mb-4"
+            >
+              <div class="d-flex w-100 gap-3 position-relative">
+                <div class="profile border-3">
+                  <div class="image-container profile-picture">
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-2.jpg"
+                        alt=""
+                        class="img-fluid rounded-circle"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="text-container d-flex flex-column">
+                  <p class="text-dark fw-bold mb-0">Tomy Heirch</p>
+                  <span class="text-muted notification">
+                    12 mutual friends
+                  </span>
+                </div>
+              </div>
+              <div>
+                <a href="#" class="btn btn-primary"> Accept </a>
+                <a href="#" class="btn btn-light"> Decline</a>
+              </div>
+            </div>
+            <!-- // Request 2-->
+
+            <div
+              class="d-flex flex-column bg-white gap-3 align-items-center p-3 rounded-4 mb-4"
+            >
+              <div class="d-flex w-100 gap-3 position-relative">
+                <div class="profile border-3">
+                  <div class="image-container profile-picture">
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-14.jpg"
+                        alt=""
+                        class="img-fluid rounded-circle"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="text-container d-flex flex-column">
+                  <p class="text-dark fw-bold mb-0">Gary Fletch</p>
+                  <span class="text-muted"> 1 mutual friend </span>
+                </div>
+              </div>
+              <div>
+                <a href="#" class="btn btn-primary"> Accept </a>
+                <a href="#" class="btn btn-light"> Decline</a>
+              </div>
+            </div>
+            <!-- // Request 3-->
+          </div>
+          <!-- // right -->
+        </div>
+        <!-- // Side bar -->
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

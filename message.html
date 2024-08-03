@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+    <!-- <link rel="icon" href="images/favicon.png" /> -->
+    <title>Socialize</title>
+  </head>
+  <body>
+    <!-- navbar xxl xl-->
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-white bg-white d-none d-lg-block"
+    >
+      <div class="container-xxl">
+        <a href="index.html" class="navbar-brand">
+          <h2 class="fw-bold">Socialize</h2>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="row w-100 align-items-center justify-content-between">
+            <div class="col-md-6 offset-md-2">
+              <div class="input-group rounded-5 bg-light">
+                <div class="input-group-text border-0 rounded-5 bg-light">
+                  <i class="uil uil-search"></i>
+                </div>
+                <input
+                  type="search"
+                  class="form-control border-0 shadow-none rounded-5 py-2"
+                  placeholder="Search"
+                />
+              </div>
+            </div>
+
+            <div
+              class="col-md-3 d-flex justify-content-end gap-3 align-items-center"
+            >
+              <button class="btn btn-primary">Create</button>
+              <a href="#">
+                <img
+                  src="images/profile-1.jpg"
+                  alt="Profile"
+                  class="img-fluid rounded-circle profile-picture"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- // navbar xxl xl-->
+
+    <!-- navbar small-->
+    <nav
+      class="navbar navbar-expand-lg fixed-top navar-white bg-white d-lg-none navbar-small"
+    >
+      <div class="container-xxl">
+        <div class="d-flex w-100 align-items-center">
+          <div
+            class="row d-flex w-100 align-items-center navbar-small-navigation"
+          >
+            <div class="col-md-3">
+              <a href="index.html">
+                <h3 class="fw-bold">Socialize</h3>
+              </a>
+            </div>
+
+            <div class="col-md-8 offset-md-1 d-flex align-items-center">
+              <div class="d-flex gap-2 align-items-center flex-grow-1">
+                <span>
+                  <a href="index.html" class="active">
+                    <i class="uil uil-home position-relative"></i>
+                    <span
+                      class="position-absolute translate-middle badge bg-danger rounded-circle mx-n3 mt-3 m-0"
+                    >
+                      +4
+                    </span>
+                  </a>
+                </span>
+
+                <span>
+                  <a href="#">
+                    <i class="uil uil-compass text-dark position-relative"></i>
+                    <span
+                      class="position-absolute translate-middle badge bg-danger rounded-circle mx-n3 mt-3 m-0"
+                    >
+                      +4
+                    </span>
+                  </a>
+                </span>
+
+                <span>
+                  <a href="#">
+                    <i class="uil uil-bell text-dark position-relative"></i>
+                    <span
+                      class="position-absolute translate-middle badge bg-danger rounded-circle mx-n3 mt-3 m-0"
+                    >
+                      +4
+                    </span>
+                  </a>
+                </span>
+
+                <span>
+                  <a href="message.html">
+                    <i
+                      class="uil uil-envelope-alt text-dark position-relative"
+                    ></i>
+                    <span
+                      class="position-absolute translate-middle badge bg-danger rounded-circle mx-n3 mt-3 m-0"
+                    >
+                      +4
+                    </span>
+                  </a>
+                </span>
+
+                <span>
+                  <a href="#">
+                    <i class="uil uil-bookmark text-dark position-relative"></i>
+                    <span
+                      class="position-absolute translate-middle badge bg-danger rounded-circle mx-n3 mt-3 m-0"
+                    >
+                      +4
+                    </span>
+                  </a>
+                </span>
+              </div>
+
+              <span class="">
+                <a href="#">
+                  <img
+                    src="images/profile-1.jpg"
+                    alt="Profile"
+                    class="img-fluid rounded-circle profile-picture-small"
+                  />
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- // navbar small-->
+
+    <!-- Toolbar small screen -->
+    <nav
+      class="navbar navbar-expand-lg fixed-bottom navar-white bg-primary d-lg-none navbar-small mt-3 toolbar-small"
+    >
+      <div class="container-xxl">
+        <div
+          class="d-flex justify-content-center align-items-center w-100 gap-5"
+        >
+          <span>
+            <a href="#">
+              <i class="fa fa-home fa-2x text-light"></i>
+            </a>
+          </span>
+
+          <span>
+            <a href="#">
+              <i class="fa fa-envelope fa-2x text-light"></i>
+            </a>
+          </span>
+
+          <span>
+            <a href="#">
+              <i class="fa fa-calendar-days fa-2x text-light"></i>
+            </a>
+          </span>
+
+          <span>
+            <a href="#">
+              <i class="fa fa-cog fa-2x text-light"></i>
+            </a>
+          </span>
+
+          <span>
+            <a href="#">
+              <i class="fa fa-moon fa-2x text-light"></i>
+            </a>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!-- // Toolbar small screen -->
+
+    <section class="messages mt-6">
+      <div class="container-xxl">
+        <div class="row g-0">
+          <!-- Side bar large screen -->
+          <div class="col-lg-1 d-none d-lg-block">
+            <div
+              class="card bg-primary border-0 rounded-5 p-3 d-flex flex-column justify-content-between card-side-bar"
+            >
+              <div class="d-flex flex-column align-items-center">
+                <span class="fa-stack fa-2x">
+                  <a href="#">
+                    <i
+                      class="fa-solid fa-circle fa-stack-2x text-secondary"
+                    ></i>
+                    <i class="fas fa-comment-alt fa-stack-1x text-white"></i>
+                  </a>
+                </span>
+              </div>
+
+              <div
+                class="d-flex flex-column align-items-center justify-content-between gap-3"
+              >
+                <span>
+                  <a href="#">
+                    <i class="fa fa-home fa-2x text-light"></i>
+                  </a>
+                </span>
+
+                <span>
+                  <a href="#">
+                    <i class="fa fa-envelope fa-2x text-light"></i>
+                  </a>
+                </span>
+
+                <span>
+                  <a href="#">
+                    <i class="fa fa-calendar-days fa-2x text-light"></i>
+                  </a>
+                </span>
+
+                <span>
+                  <a href="#">
+                    <i class="fa fa-cog fa-2x text-light"></i>
+                  </a>
+                </span>
+                <span>
+                  <a href="#">
+                    <i class="fa fa-moon fa-2x text-light"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- Side bar large screen -->
+
+          <!-- Middle Large screen -->
+          <div class="col-lg-3 col-md-4 bg-light p-3 middle d-none d-md-block">
+            <div class="d-flex flex-column message-group">
+              <span class="position-absolute new-message d-none d-lg-block">
+                <a href="#" class="text-decoration-none">
+                  <i class="fa-solid fa-plus"></i>
+                </a>
+              </span>
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center gap-2"
+                >
+                  <h5 class="fw-bold mb-0">Messages</h5>
+                  <h4>
+                    <span class="badge bg-danger rounded-circle mb-0"> 2</span>
+                  </h4>
+                </div>
+                <div>
+                  <a href="#">
+                    <i class="fas fa-search"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div
+                class="d-flex align-items-center message-navigations justify-content-between mb-4"
+              >
+                <div class="position-relative">
+                  <a href="#" class="text-decoration-none">
+                    <span class="fw-bold"> All conversations </span>
+                  </a>
+                  <span class="active"> </span>
+                </div>
+
+                <div class="position-relative">
+                  <a href="#" class="text-decoration-none">
+                    <span class="fw-bold"> Archived </span>
+                  </a>
+                </div>
+
+                <div class="position-relative">
+                  <a href="#" class="text-decoration-none">
+                    <span class="fw-bold"> Starred </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="message-container d-flex flex-column">
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 active position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-1.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">John Doe</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        5</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-2.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9+</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-3.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9+</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between position-relative p-2"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-4.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-5.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-6.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-7.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-8.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a href="#" class="stretched-link">
+                      <img
+                        src="images/profile-9.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- // Middle Large screen-->
+
+          <!-- Middle Small screen -->
+          <div class="col-lg-3 col-md-4 bg-light p-3 middle d-md-none ">
+
+            <div class="d-flex flex-column message-group">
+              <span class="position-absolute new-message d-none d-lg-block">
+                <a href="#" class="text-decoration-none">
+                  <i class="fa-solid fa-plus"></i>
+                </a>
+              </span>
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center gap-2"
+                >
+                  <h5 class="fw-bold mb-0">Messages</h5>
+                  <h4>
+                    <span class="badge bg-danger rounded-circle mb-0"> 2</span>
+                  </h4>
+                </div>
+                <div>
+                  <a href="#">
+                    <i class="fas fa-search"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div
+                class="d-flex align-items-center message-navigations justify-content-between mb-4"
+              >
+                <div class="position-relative">
+                  <a href="#" class="text-decoration-none">
+                    <span class="fw-bold"> All conversations </span>
+                  </a>
+                  <span class="active"> </span>
+                </div>
+
+                <div class="position-relative">
+                  <a href="#" class="text-decoration-none">
+                    <span class="fw-bold"> Archived </span>
+                  </a>
+                </div>
+
+                <div class="position-relative">
+                  <a href="#" class="text-decoration-none">
+                    <span class="fw-bold"> Starred </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="message-container d-flex flex-column">
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 active position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a
+                      href="#"
+                      class="stretched-link"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasExample"
+                      aria-controls="offcanvasExample"
+                    >
+                      <img
+                        src="images/profile-1.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">John Doe</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        5</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a
+                      href="#"
+                      class="stretched-link"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasExample"
+                      aria-controls="offcanvasExample"
+                    >
+                      <img
+                        src="images/profile-2.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9+</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a
+                      href="#"
+                      class="stretched-link"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasExample"
+                      aria-controls="offcanvasExample"
+                    >
+                      <img
+                        src="images/profile-3.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9+</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between position-relative p-2"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a
+                      href="#"
+                      class="stretched-link"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasExample"
+                      aria-controls="offcanvasExample"
+                    >
+                      <img
+                        src="images/profile-4.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a
+                      href="#"
+                      class="stretched-link"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasExample"
+                      aria-controls="offcanvasExample"
+                    >
+                      <img
+                        src="images/profile-5.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a
+                      href="#"
+                      class="stretched-link"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasExample"
+                      aria-controls="offcanvasExample"
+                    >
+                      <img
+                        src="images/profile-6.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a
+                      href="#"
+                      class="stretched-link"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasExample"
+                      aria-controls="offcanvasExample"
+                    >
+                      <img
+                        src="images/profile-7.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a
+                      href="#"
+                      class="stretched-link"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasExample"
+                      aria-controls="offcanvasExample"
+                    >
+                      <img
+                        src="images/profile-8.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+
+                <div
+                  class="unique-message d-flex align-items-center justify-content-between p-2 position-relative"
+                >
+                  <span class="position-absolute text-muted"> 10:01pm </span>
+                  <div
+                    class="d-flex justify-content-between gap-2 position-relative"
+                  >
+                    <a
+                      href="#"
+                      class="stretched-link"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasExample"
+                      aria-controls="offcanvasExample"
+                    >
+                      <img
+                        src="images/profile-9.jpg"
+                        alt=""
+                        class="img-fuild rounded-circle"
+                      />
+                    </a>
+                    <div class="d-flex flex-column justify-content-between">
+                      <h6 class="text-start mb-0">Millet Dectur</h6>
+                      <p class="mb-0">Lorem ipsum dolor sit...</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>
+                      <span class="badge bg-danger rounded-circle mb-0">
+                        9</span
+                      >
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- // Middle Small screen-->
+
+          <!-- Right -->
+          <div
+            class="col-lg-8 col-md-8 bg-white p-3 main-message  position-relative mb-md-5 d-none d-md-block"
+          >
+            <div class="card border-4 shadow-sm p-3 border-1">
+              <div class="d-flex justify-content-between">
+                <div
+                  class="d-flex justify-content-between gap-2 position-relative align-items-center"
+                >
+                  <a href="#" class="stretched-link">
+                    <img
+                      src="images/profile-6.jpg"
+                      alt=""
+                      class="img-fuild rounded-circle"
+                    />
+                  </a>
+                  <div class="d-flex flex-column lh-0">
+                    <h6 class="text-start mb-0">Millet Dectur</h6>
+                    <p class="mb-0">Active</p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center gap-2 links">
+                  <span>
+                    <a href="#">
+                      <i class="fa fa-phone text-white"></i>
+                    </a>
+                  </span>
+
+                  <span>
+                    <a href="#">
+                      <i class="fa fa-video-camera text-white"></i>
+                    </a>
+                  </span>
+
+                  <span>
+                    <a href="#">
+                      <i class="fa fa-ellipsis text-white"></i>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="message-container p-3 mb-5">
+              <div class="receiver d-flex gap-2 align-items-center mb-1">
+                <a href="#" class="text-decoration-none">
+                  <img
+                    src="images/profile-11.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                </a>
+                <div class="card rounded-3 shadow-sm p-2">
+                  Lorem, ipsum dolor.
+                </div>
+              </div>
+
+              <div
+                class="sender d-flex gap-2 align-items-center justify-content-end mb-1"
+              >
+                <div class="card rounded-3 p-2 bg-primary border-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                  dolor quidem nostrum ipsa quisquam iste dignissimos unde eius
+                  enim obcaecati distinctio nisi deleniti voluptas quas, neque
+                  aut sequi omnis atque at perferendis modi sint. Reprehenderit
+                  fugit fuga quis recusandae culpa.
+                </div>
+                <a href="#" class="text-decoration-none">
+                  <img
+                    src="images/profile-12.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                </a>
+              </div>
+
+              <div class="receiver d-flex gap-2 align-items-center mb-1">
+                <a href="#" class="text-decoration-none">
+                  <img
+                    src="images/profile-11.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                </a>
+                <div class="card rounded-3 shadow-sm p-2">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Minus maiores perspiciatis animi provident natus..
+                </div>
+              </div>
+
+              <div
+                class="sender d-flex gap-2 align-items-center justify-content-end mb-1"
+              >
+                <div class="card rounded-3 p-2 bg-primary border-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                  dolor quidem nostrum ipsa quisquam iste dignissimos.
+                </div>
+                <a href="#" class="text-decoration-none">
+                  <img
+                    src="images/profile-12.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                </a>
+              </div>
+
+              <div class="receiver d-flex gap-2 align-items-center mb-1">
+                <a href="#" class="text-decoration-none">
+                  <img
+                    src="images/profile-11.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                </a>
+                <div class="card rounded-3 shadow-sm p-2">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Minus maiores perspiciatis animi provident natus..
+                </div>
+              </div>
+
+              <div
+                class="sender d-flex gap-2 align-items-center justify-content-end mb-1"
+              >
+                <div class="card rounded-3 p-2 bg-primary border-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                  dolor quidem nostrum ipsa quisquam iste dignissimos.
+                </div>
+                <a href="#" class="text-decoration-none">
+                  <img
+                    src="images/profile-12.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <!-- input group -->
+            <div
+              class="card border-4 shadow-sm py-1 px-2 border-1 position-absolute custom-input-group"
+            >
+              <div class="d-flex justify-content-between gap-2">
+                <div
+                  class="d-flex justify-content-between gap-2 position-relative align-items-center"
+                >
+                  <a href="#">
+                    <i class="fa fa-paperclip"></i>
+                  </a>
+                </div>
+                <input type="text" class="form-control shadow-none" />
+                <span>
+                  <a href="#">
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+            <!-- Input group -->
+          </div>
+          <!-- // Right -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Offcanva message small screen -->
+    <div
+      class="offcanvas offcanvas-end w-100 d-lg-none"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div
+        class="d-flex align-items-center offcanvas-main-header px-3 py-2 gap-2 bg-primary"
+      >
+        <!-- Close button -->
+        <a aria-label="Close" data-bs-dismiss="offcanvas">
+          <i class="fa-solid fa-arrow-left"></i>
+        </a>
+        <!-- Close button -->
+        <div class="d-flex justify-content-between align-items-center w-100">
+          <div
+            class="d-flex justify-content-between gap-2 position-relative align-items-center"
+          >
+            <a href="#" class="stretched-link">
+              <img
+                src="images/profile-9.jpg"
+                alt=""
+                class="img-fuild rounded-circle"
+              />
+            </a>
+            <div class="d-flex flex-column lh-0">
+              <h6 class="text-start mb-0">Millet Dectur</h6>
+              <p class="mb-0">Active</p>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-center gap-3">
+            <span>
+              <a href="#">
+                <i class="fa fa-phone text-light"></i>
+              </a>
+            </span>
+
+            <span>
+              <a href="#">
+                <i class="fa fa-video-camera text-light"></i>
+              </a>
+            </span>
+
+            <span>
+              <a href="#">
+                <i class="fa fa-ellipsis text-light"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="offcanvas-body">
+        <div class="card shadow-sm border-1 rounded-0">
+          <div class="message-container px-1 py-3">
+            <div class="receiver d-flex gap-2 align-items-center mb-1">
+              <a href="#" class="text-decoration-none">
+                <img
+                  src="images/profile-9.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+              </a>
+              <div class="card rounded-3 shadow-sm p-2">
+                Lorem, ipsum dolor.
+              </div>
+            </div>
+
+            <div
+              class="sender d-flex gap-2 align-items-center justify-content-end mb-1"
+            >
+              <div class="card rounded-3 py-1 px-2 bg-primary border-0">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                dolor quidem nostrum ipsa quisquam iste dignissimos unde eius
+                enim obcaecati distinctio nisi deleniti voluptas quas, neque aut
+                sequi omnis atque at perferendis modi sint. Reprehenderit fugit
+                fuga quis recusandae culpa.
+              </div>
+              <a href="#" class="text-decoration-none">
+                <img
+                  src="images/profile-12.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+              </a>
+            </div>
+
+            <div class="receiver d-flex gap-2 align-items-center mb-1">
+              <a href="#" class="text-decoration-none">
+                <img
+                  src="images/profile-9.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+              </a>
+              <div class="card rounded-3 shadow-sm p-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+                maiores perspiciatis animi provident natus..
+              </div>
+            </div>
+
+            <div
+              class="sender d-flex gap-2 align-items-center justify-content-end mb-1"
+            >
+              <div class="card rounded-3 p-2 bg-primary border-0">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                dolor quidem nostrum ipsa quisquam iste dignissimos.
+              </div>
+              <a href="#" class="text-decoration-none">
+                <img
+                  src="images/profile-12.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+              </a>
+            </div>
+
+            <div class="receiver d-flex gap-2 align-items-center mb-1">
+              <a href="#" class="text-decoration-none">
+                <img
+                  src="images/profile-9.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+              </a>
+              <div class="card rounded-3 shadow-sm p-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+                maiores perspiciatis animi provident natus..
+              </div>
+            </div>
+
+            <div
+              class="sender d-flex gap-2 align-items-center justify-content-end mb-1"
+            >
+              <div class="card rounded-3 p-2 bg-primary border-0">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                dolor quidem nostrum ipsa quisquam iste dignissimos.
+              </div>
+              <a href="#" class="text-decoration-none">
+                <img
+                  src="images/profile-12.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+              </a>
+            </div>
+
+            <div class="receiver d-flex gap-2 align-items-center mb-1">
+              <a href="#" class="text-decoration-none">
+                <img
+                  src="images/profile-9.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+              </a>
+              <div class="card rounded-3 shadow-sm p-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+                maiores perspiciatis animi provident natus..
+              </div>
+            </div>
+
+            <div
+              class="sender d-flex gap-2 align-items-center justify-content-end mb-4"
+            >
+              <div class="card rounded-3 p-2 bg-primary border-0">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                dolor quidem nostrum ipsa quisquam iste dignissimos.
+              </div>
+              <a href="#" class="text-decoration-none">
+                <img
+                  src="images/profile-12.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- input group -->
+      <nav
+        class="navbar navbar-expand-lg fixed-bottom navar-white navbar-small mt-3 toolbar-small navbar-message-sm"
+      >
+        <div class="card border-4 shadow-sm py-1 px-2 border-1 rounded-0 w-100">
+          <div class="d-flex justify-content-between gap-2 align-items-center">
+            <div
+              class="d-flex justify-content-between gap-2 position-relative align-items-center"
+            >
+              <a href="#">
+                <i class="fa fa-paperclip"></i>
+              </a>
+            </div>
+            <input type="text" class="form-control shadow-none" />
+            <a href="#">
+              <i class="fa fa-paper-plane"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <!-- Input group -->
+    </div>
+    <!-- // Offcanva message small screen -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
